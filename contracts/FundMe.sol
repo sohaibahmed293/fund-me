@@ -66,6 +66,7 @@ contract FundMe {
         if (msg.sender != i_owner) {
             revert NotOwner();
         }
+        // Placeholder where the function body will be inserted on which this modifier is called.
         _;
     }
 
